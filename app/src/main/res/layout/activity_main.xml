@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <com.google.android.material.tabs.TabLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#B1E1F6"
+    android:id="@+id/tab_layout">
+
+    <com.google.android.material.tabs.TabItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rewards"/>
+
+
+</com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_pager"
+        android:layout_below="@id/tab_layout"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="175dp"
+        android:layout_height="69dp"
+        android:text="Invite friends"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="583dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="368dp"
+        android:layout_height="121dp"
+        android:text="Share with your friends and family and get cash reward $20 for everyone who joins and does their first transfer or currency."
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="193dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="4356"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="117dp"
+        android:layout_height="66dp"
+        android:text="Copy"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
